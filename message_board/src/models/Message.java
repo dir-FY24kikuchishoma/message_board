@@ -39,6 +39,8 @@ public class Message {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+    
+    
     public Integer getId() {
         return id;
     }
